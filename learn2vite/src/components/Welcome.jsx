@@ -7,7 +7,7 @@ import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 
 const commonStyles =
-  " min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-white  ";
+  " min-h-[71px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-white  ";
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
   <input
